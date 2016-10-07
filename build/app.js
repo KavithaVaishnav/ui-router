@@ -1,0 +1,1 @@
+var myApp=angular.module("myApp",["ui.router"]);myApp.config(function(e,t){t.otherwise("/home"),e.state("desc",{url:"/desc",templateUrl:"partials/desc.html"}).state("home",{url:"/home",templateUrl:"partials/home.html"})});

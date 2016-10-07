@@ -1,0 +1,14 @@
+<table class="table table-bordered table-hover">
+     	<tr>
+     		<th>Index</th>
+     		<th>Name</th>
+     		<th>Description</th>
+     	</tr>
+     	<tr ng-repeat ="software in softwares">
+     	  
+     	  	<td>{{$index+1}}</td>
+               <td><a ui-sref="desc" ng-click="click(software.id)"><img ng-src="{{software.img}}" alt="{{software.name}}"></a></td>
+     	  	<td><a ui-sref="desc" ng-click="click(software.id)">{{software.name}}</a></td>
+     	 	
+     	</tr>
+ </table>

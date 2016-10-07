@@ -1,0 +1,30 @@
+table img{
+	height: 50px;
+	width: 50px;
+}
+table tr td{
+	margin: 20px;
+	text-align: center;
+	font:20px verdana;
+	color: #889454;
+}
+table tr td,table th{
+	padding-right: 84px;
+
+}
+table th{
+	font: 30px verdana;
+	color: #545a45;
+	
+}
+.view{
+	width: 50%;
+    margin: 0 auto;
+}
+header h1{
+	color: #24545a;
+	text-align: center;
+}
+.desc{
+	color: #845444;
+}
